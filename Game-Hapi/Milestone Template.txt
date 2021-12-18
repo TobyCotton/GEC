@@ -1,0 +1,25 @@
+Toby Cotton
+Milestone 3 <version 3.0> and <18/11/21>
+--------------------------------
+
+New Functionality
+-----------------
+
+Controller input
+Clipping
+Rumble Control
+
+
+Code Additions
+--------------
+Clipping render function
+destructor class
+
+Tests
+-----
+ran around the screen and clipped on each side
+
+Notes
+-----
+
+up and down ladder motion
