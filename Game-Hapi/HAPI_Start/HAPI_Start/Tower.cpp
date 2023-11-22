@@ -74,18 +74,6 @@ void Tower::Shoot(std::vector<GameObject*> Entities)
 					{
 						entity2->Ressurect(entity2->GetHealth(), true, false, 1, entity2->GetHealth() - 1, "Data\\TowerDefense\\Enemys\\Enemy" + std::to_string(entity2->GetHealth() - 1) + ".png", entity2->GetPosition(), true);
 						entity2->SetHealth(entity2->GetHealth() - 1);
-						//bool flag3 = false;
-						//for (GameObject* entity3 : Entities)
-						//{
-						//	if (entity3->GetSide() == 2 && flag3 == false)
-						//	{
-						//		if (!entity3->ReturnAlive())
-						//		{
-						//			std::cout << "hit\n";
-						//			entity3->Ressurect(entity2->GetHealth(), false, false, 1, entity2->GetHealth() - 1, "Data\\TowerDefense\\Enemys\\Enemy" + std::to_string(entity2->GetHealth() - 1) + ".png", entity2->GetPosition(), true);
-						//		}
-						//	}
-						//}
 					}
 					else//if red enemy kill it
 					{
